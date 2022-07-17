@@ -1,0 +1,27 @@
+#################################################################
+##                    NICKCHANGER BY KENDA                     ##
+##  documentation: https://github.com/KendaFR/NickChanger.git  ##
+## Youtube: https://www.youtube.com/c/kendamc                 ##
+################################################################
+
+#Catégorie des messages
+messages:
+  #Le préfix du plugin
+  prefix: "&6[NickChanger] "
+  #Message en cas de non permission du joueur
+  noperms: "&cVous n'avez pas la permission de faire cette commande."
+  #Message en cas d'arguments non suffisant dans la commande
+  not_enough_arguments: "&cCommande: &7/nick <pseudo>"
+  #Message à envoyer si le nick est déjà utilisé par un joueur (ou qu'un joueur au même pseudo est connecté)
+  nick_already_used: "&cCe pseudo est déjà utilisé."
+  #Message lorsque le nick est changé. Argument possible: {playername} , {nickname}
+  nick_changed: "&cVous avez changer votre nouveau nom en {nickname} . (Votre ancien pseudo était {playername}) "
+  #Message lorsque le nick est retiré
+  nick_removed: "&cVotre nick à été retiré."
+
+#Catégories des permission
+permissions:
+  #Permission pour utilisé le /nick
+  use: nick.use
+  #Le joueur peut prendre le pseudo d'un joueur connecté
+  username_connected: false

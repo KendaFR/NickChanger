@@ -1,0 +1,9 @@
+name: NickChanger
+version: '${project.version}'
+main: fr.kenda.nickchanger.Nick
+authors: [ Kenda ]
+description: Plugin de nick
+commands:
+  nick:
+    description: Permet de faire /nick
+    aliases: nickchanger
