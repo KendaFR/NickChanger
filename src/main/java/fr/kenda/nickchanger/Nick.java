@@ -4,7 +4,6 @@ import fr.kenda.nickchanger.commands.NickCommand;
 import fr.kenda.nickchanger.files.CustomConfig;
 import fr.kenda.nickchanger.nick.NickManager;
 import fr.kenda.nickchanger.utils.Configuration;
-import fr.kenda.nickchanger.utils.SpigotUpdater;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -26,7 +25,6 @@ public final class Nick extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        SpigotUpdater updater = new SpigotUpdater(this, )
         instance = this;
         saveDefaultConfig();
         prefix = Configuration.getConfigString("messages.prefix");
